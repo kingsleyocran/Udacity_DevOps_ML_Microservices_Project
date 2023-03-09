@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath="bendaniel10/app"
+dockerpath="ocrankingsley/app"
 imagename="app"
 
 # Step 2:
