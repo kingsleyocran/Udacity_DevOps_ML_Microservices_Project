@@ -4,7 +4,7 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath="bendaniel10/app"
+dockerpath="ocrankingsley/app"
 imagename="app"
 
 # Step 2

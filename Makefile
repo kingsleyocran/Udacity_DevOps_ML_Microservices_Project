@@ -7,7 +7,6 @@
 
 setup:
 	# Create python virtualenv & source it
-	# source ~/.devops/bin/activate
 	python3 -m venv ~/.devops
 
 install:
@@ -15,6 +14,10 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
+activate:
+	# Activate the venv
+	source ~/.devops/bin/activate
+	
 test:
 	# Additional, optional, tests could go here
 	#python -m pytest -vv --cov=myrepolib tests/*.py
